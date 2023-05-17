@@ -7,8 +7,10 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
 
+
+
 @Entity
-public class Evento {
+public class Evento  {
 
 
     @Id
@@ -19,7 +21,7 @@ public class Evento {
     private String local;
     private String data;
     private String horario;
-    
+
 
     public long getId() {
         return id;
